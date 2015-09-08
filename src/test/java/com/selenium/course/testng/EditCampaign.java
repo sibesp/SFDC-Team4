@@ -25,8 +25,8 @@ public class EditCampaign {
         campaignName = "CampaignTesting123";
         type = "Conference";
         status = "Planned";
-        startDate = "6/29/2009";
-        endDate = "7/29/2009";
+        startDate = "6/06/2009";
+        endDate = "7/07/2009";
 
         LoginPage loginPage = new LoginPage();
         ContentPage contentPage = loginPage.loginAsPrimaryUser();
@@ -49,8 +49,8 @@ public class EditCampaign {
         campaignName = "CampaignEdited123";
         type = "Webinar";
         status = "In Progress";
-        startDate = "6/29/2010";
-        endDate = "7/29/2012";
+        startDate = "6/06/2010";
+        endDate = "7/07/2012";
 
         WebDriver driver = WebDriverManager.getInstance().getDriver();
 
